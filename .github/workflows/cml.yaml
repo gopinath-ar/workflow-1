@@ -11,7 +11,7 @@ jobs:
     - name: train model
       run: |
           pip install -r requirements.txt
-          python train.py  # generate plot.png#
+          python train.py  # generate plot.png
           ls -l
       env:
           REPO_TOKEN:  ${{ secrets.GITHUB_TOKEN }}
